@@ -23,7 +23,7 @@ jobs:
     - uses:  action/upload-artifacts@main
       with:
         name: webpack artifacts
-        path: public
+        path: public/
  
     
   test:
